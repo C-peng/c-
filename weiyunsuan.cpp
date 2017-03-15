@@ -14,7 +14,7 @@ int countBitDiff(int m, int n)
     for(int i=0;i<31;i++)  
     {  
         a=m&data;  //进行与操作得到最后一位
-        b=n&data;  
+        b=n&data;  //
         if(a!=b)  
         {  
             count++;             
